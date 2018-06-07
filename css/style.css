@@ -1,0 +1,140 @@
+/*****************/
+/*** Main Info ***/
+/*****************/
+/*
+** Main background Color = aquamarine
+** Second background Color = rgb(251, 253, 229)
+*/
+body
+{
+  font-size: 16px;
+  font-family: 'Jua', sans-serif;
+  background-color: rgb(251, 253, 229);
+}
+
+/**************/
+/*** Navbar ***/
+/**************/
+#header-nav 
+{
+  background-color: aquamarine;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-nav .navbar-brand a
+{
+  color: rgb(59, 53, 53);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Concert One', cursive;
+}
+
+#header-nav .navbar-brand a span
+{
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus 
+{
+  text-decoration: none;
+}
+
+.navbar-brand p 
+{ 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+.navbar-brand p span 
+{ 
+  vertical-align: middle;
+}
+
+#nav-list
+{
+  background-color: aquamarine;
+  border-top: 2px solid rgb(251, 253, 229);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list hr
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(251, 253, 229);
+}
+
+#header-nav span.icon-bar
+{
+  background-color: rgb(133, 125, 125);
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover
+{
+  background-color: rgb(251, 253, 229);
+}
+
+.navbar-default .navbar-toggle
+{
+  border-color: rgb(133, 125, 125);
+}
+
+/***********/
+/* Content */
+/***********/
+#main-content
+{
+  width: 100%;
+}
+
+#main-content .menu-header
+{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+#main-content .menu-content
+{
+  background: aquamarine;
+  margin: 20px 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+#main-content #chicken h3,
+#main-content #beef h3,
+#main-content #sushi h3
+{
+  border: 1px solid black;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 125%;
+  padding: 5px;
+  position: relative;
+  bottom: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#main-content #chicken h3
+{
+  background-color: pink;
+}
+
+#main-content #beef h3
+{
+  background-color: rgb(236, 75, 75);
+}
+
+#main-content #sushi h3
+{
+  background-color: rgb(112, 190, 226);
+}
